@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="21px" viewBox="0 0 22 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>X</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-4.4%" y="-3.9%" width="108.9%" height="107.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Splash-Page-Pop-Up-Mobile" transform="translate(-266.000000, -149.000000)" stroke="#9B9B9B">
+            <g id="Pop-Up" filter="url(#filter-1)" transform="translate(25.000000, 140.000000)">
+                <g id="X" transform="translate(245.000000, 10.000000)">
+                    <path d="M0.293,0.832 L13.293,13.832" id="Stroke-3"></path>
+                    <path d="M13.293,0.832 L0.293,13.832" id="Stroke-5"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

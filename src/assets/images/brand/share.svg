@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="75px" height="76px" viewBox="0 0 75 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>Share icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-3.8%" y="-1.5%" width="107.5%" height="103.1%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <filter x="-12.0%" y="-11.9%" width="124.0%" height="123.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M13.7406297,52.2759434 L0,56.2106918 L4.36094453,43.1111567 C1.58601949,38.7853774 0,33.6286574 0,28.1053459 C0,12.5863071 12.5492879,0 28.0172414,0 C43.4876312,0 56.0344828,12.5863071 56.0344828,28.1053459 C56.0344828,43.6243847 43.4876312,56.2106918 28.0172414,56.2106918 C22.8060345,56.2106918 17.9066717,54.7687654 13.7406297,52.2759434 Z" id="path-3"></path>
+        <filter x="-15.2%" y="-11.6%" width="130.3%" height="130.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Splash-Page-Mobile" transform="translate(-127.000000, -1473.000000)">
+            <g id="How-It-Works" filter="url(#filter-1)" transform="translate(2.000000, 876.000000)">
+                <g id="Circle-3" filter="url(#filter-2)" transform="translate(97.000000, 568.000000)">
+                    <g id="Share-icon" transform="translate(37.356322, 33.727093)">
+                        <g id="Stroke-1">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use stroke="#FFFFFF" stroke-width="3" xlink:href="#path-3"></use>
+                        </g>
+                        <path d="M15.0092365,21.8318312 L42.0258621,21.8318312" id="Stroke-3" stroke="#FFFFFF" stroke-width="3" fill="#D8D8D8"></path>
+                        <path d="M15.0092365,28.8581677 L42.0258621,28.8581677" id="Stroke-5" stroke="#FFFFFF" stroke-width="3" fill="#D8D8D8"></path>
+                        <path d="M15.0092365,36.3863853 L42.0258621,36.3863853" id="Stroke-7" stroke="#FFFFFF" stroke-width="3" fill="#D8D8D8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
