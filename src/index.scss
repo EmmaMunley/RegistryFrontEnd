@@ -12,6 +12,14 @@ body {
   color: #fff;
 }
 
+.column {
+  flex-direction: column;
+}
+
+.text-center {
+  text-align: center;
+}
+
 .text-shadow {
   text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
 }
@@ -34,6 +42,10 @@ body {
 
 .logo {
   width: 200px;
+}
+
+.partnerLogo {
+  width: 150px;
 }
 
 @font-face {
