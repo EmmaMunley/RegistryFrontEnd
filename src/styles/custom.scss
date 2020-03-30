@@ -1,0 +1,38 @@
+// Your variable overrides
+:root {
+}
+$theme-colors: (
+  'primary': #f6b8a3,
+  'light': #fff,
+  'dark': #000,
+  'danger': #ff4136,
+);
+
+.display {
+  color: map-get($theme-colors, 'light') !important;
+}
+
+.btn {
+  border-radius: 0 !important;
+  width: 250px !important;
+}
+
+.btn-primary {
+  background-color: map-get($theme-colors, 'primary') !important;
+  color: map-get($theme-colors, 'light') !important;
+  border: 3px solid map-get($theme-colors, 'light') !important;
+}
+
+.btn-secondary {
+  color: map-get($theme-colors, 'primary') !important;
+  background-color: map-get($theme-colors, 'light') !important;
+  border: 3px solid map-get($theme-colors, 'primary') !important;
+}
+
+.btn-outline-success {
+  color: map-get($theme-colors, 'primary') !important;
+  background-color: map-get($theme-colors, 'light') !important;
+  border: 3px solid map-get($theme-colors, 'primary') !important;
+}
+// Bootstrap and its default variables
+@import 'node_modules/bootstrap/scss/bootstrap';

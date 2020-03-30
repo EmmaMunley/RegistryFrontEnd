@@ -1,0 +1,108 @@
+@import './styles/custom.scss';
+
+body {
+  margin: 0;
+  font-family: ShreeDev;
+  color: 'white';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.white {
+  color: #fff;
+}
+
+.text-shadow {
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.left-indent {
+  padding-left: 30px;
+}
+
+.right-indent {
+  padding-right: 30px;
+}
+
+.flex {
+  display: flex;
+}
+
+.center {
+  justify-content: center;
+}
+
+.logo {
+  width: 200px;
+}
+
+@font-face {
+  font-family: 'ShreeDev';
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714.eot');
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714.eot')
+      format('embedded-opentype'),
+    /* IE9+ Compat Modes */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714.woff2') format('woff2'),
+    /* Super modern browsers */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714.woff') format('woff'),
+    /* Modern browsers */ url('./assets/fonts/ShreeDev0714/ShreeDev0714.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714.svg') format('svg');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ShreeDev0714-Bold';
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714-Bold.eot');
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714-Bold.eot')
+      format('embedded-opentype'),
+    /* IE9+ Compat Modes */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Bold.woff2') format('woff2'),
+    /* Super modern browsers */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Bold.woff') format('woff'),
+    /* Modern browsers */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Bold.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Bold.svg') format('svg');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ShreeDev0714-Italic';
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714-Italic.eot');
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714-Italic.eot')
+      format('embedded-opentype'),
+    /* IE9+ Compat Modes */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Italic.woff2')
+      format('woff2'),
+    /* Super modern browsers */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Italic.woff') format('woff'),
+    /* Modern browsers */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Italic.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-Italic.svg') format('svg');
+  /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'ShreeDev0714-BoldItalic';
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714-BoldItalic.eot');
+  src: url('./assets/fonts/ShreeDev0714/ShreeDev0714-BoldItalic.eot')
+      format('embedded-opentype'),
+    /* IE9+ Compat Modes */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-BoldItalic.woff2')
+      format('woff2'),
+    /* Super modern browsers */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-BoldItalic.woff')
+      format('woff'),
+    /* Modern browsers */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-BoldItalic.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('./assets/fonts/ShreeDev0714/ShreeDev0714-BoldItalic.svg')
+      format('svg');
+  /* Legacy iOS */
+}
