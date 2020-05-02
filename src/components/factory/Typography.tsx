@@ -12,35 +12,31 @@ export const PrimaryHeader: React.FC<TypographyProps> = ({
   color,
   textAlign,
   className,
-}) => {
-  return (
-    <h1
-      className={className}
-      style={{
-        color,
-        textAlign: "left",
-        // textAlign: align
-      }}
-    >
-      {children}
-    </h1>
-  );
-};
+}) => (
+  <h1
+    className={`${className}`}
+    style={{
+      color,
+      textAlign: "left",
+      // textAlign: align
+    }}
+  >
+    {children}
+  </h1>
+);
 
 export const Paragraph: React.FC<TypographyProps> = ({
   children,
   color,
   textAlign,
-}) => {
-  return (
-    <p
-      style={{
-        color,
-        textAlign: "center",
-        // textAlign: align
-      }}
-    >
-      {children}
-    </p>
-  );
-};
+}) => (
+  <p
+    style={{
+      color,
+      textAlign: "center",
+      // textAlign: align
+    }}
+  >
+    {children}
+  </p>
+);
